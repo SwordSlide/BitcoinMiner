@@ -1,0 +1,36 @@
+import pyfiglet
+
+print(pyfiglet.figlet_format("Bitcoin Miner (ENG)"))
+
+import time
+
+time.sleep(3)
+from colorama import Fore
+
+print(Fore.RED + 'Options:')
+
+#menu option
+import time
+
+menu_optoins = ('M', 'i', 'E')
+
+while True:
+    print()
+    print('--Miner optoins--')
+    print('M = Start Mining')
+    print('i = Info')
+    print('E = Exit')
+    
+    print()
+    user_input = input('Enter an optoin: ')
+    
+    if user_input in menu_optoins:
+        break
+    
+    else:
+        print()
+        print('Check if only type the first letter...')
+        
+        if user_input == 'M':
+            print('Mining....')
+            
