@@ -1,0 +1,76 @@
+import pyfiglet 
+
+print(pyfiglet.figlet_format("SkyerVirus",font='larry3d',justify="center",width=110))
+
+import time
+
+time.sleep(2)
+from colorama import Fore
+
+print(Fore.YELLOW + '[+] by swordslide')
+from colorama import Fore
+
+print(Fore.YELLOW + '[!] Make sure that u on the right versoin!')
+from colorama import Fore
+
+print(Fore.YELLOW + '[!] Dont copy this or settings ur own credits in this software')
+print()
+import time
+
+time.sleep(3)
+def menu():
+  pass
+print("[1] Hacking wifi!")
+print("[2] Ddos attack")
+print("[3] Scanning Wifi!")
+print("[4] Info!")
+print("[0] Exit")
+
+menu()
+option = int(input("Enter your option: "))
+
+if option == 1:
+        #Do option 1
+        print('Soon')
+    
+elif option == 2:
+        #Do option 2
+        print('Soon')
+elif option == 3:
+        #Do option 3
+        print("[123] Scan nearby wifi")
+        print("[456] Scanning connected wifi")
+        
+        menu()
+        option = int(input("Enter your option: "))
+                   
+elif option == 123:
+        #Do option 2
+        print('Need to buy the payed version....')
+        
+elif option == 456:
+        #Do option 2
+        print("Need to buy the payed version....")
+        
+elif option == 4:
+        #Do option 4
+        print("Info:")
+        print("This is V.0.1 versoin if u need to update.. Make then sure u downloaded the good file            [Info Support]")
+        print("Works on windows,Linux,Mac                                                                       [Info]")
+        print("1 = Hacking wifi, 2 =  Ddos attack, 3 = Scanning Wifi, 4 = info, 0 = Exit the progam..           [Controls Info]")
+        print("Dont set your credits to your own please!                                                        [Rules Info]")
+        print("Scanning wifi have two options!                                                                  [Controls Info]")
+        print("Want a better vesion of this buy it here: SOON                                                   [Info]")
+
+
+elif option == 0:
+        #Do option 0
+        exit()
+        
+else:
+        print("Wrong option")
+        print()
+        
+        menu()
+        option = int(input("Enter your option: "))
+        
